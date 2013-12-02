@@ -17,5 +17,5 @@ SumMultiples = Num3s + Num5s
 SumMultiples = list (OrderedDict.fromkeys(SumMultiples))
 SumMultiples = sum(SumMultiples)
 
-print 'The Sum of the Multiples of 3 and 5 Between 0 to 1000 is:\n' + str(SumMultiples)
+print SumMultiples
 raw_input('')
