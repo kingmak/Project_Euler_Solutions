@@ -15,7 +15,6 @@ def Comparison():
             FiboEvenNums.append(FiboNums[count])
         count += 1
 
-            
 FiboSeq(4000000)
 Comparison()
 print sum(FiboEvenNums)
