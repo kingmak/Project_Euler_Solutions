@@ -1,5 +1,4 @@
 #Problem 4 Project Euler
-from collections import OrderedDict
 
 Palindromes = []
 Products = []
@@ -11,7 +10,6 @@ def FindProducts():
                         Products.append(i * j)
                         j += 1
                 i += 1
-        Products = list (OrderedDict.fromkeys(Products))
 
 def FindPalindromes():
         count = 0
