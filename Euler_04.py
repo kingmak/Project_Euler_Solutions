@@ -1,4 +1,4 @@
-#Problem 4 Project Euler
+##Problem 4 Project Euler
 palindrome = 0
 for numOne in range(100, 1000):
 	for numTwo in range(100, 1000):
