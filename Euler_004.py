@@ -1,5 +1,4 @@
-##Problem 4 Project Euler
-palindrome = 0
+#Problem 4 Project Euler
 palindrome = 0
 for x in range(100, 1000):
 	for y in range(100, 1000):
