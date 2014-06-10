@@ -1,8 +1,8 @@
 #Problem 2 Project Euler
-FiboNums = []
+FiboNumSum = 0
 first, second, end = 0, 1, 4000000
 while second < end:
     if second % 2 == 0:
-    	FiboNums.append(second)
+    	FiboNumSum += second
     first, second = second, first + second
-print sum(FiboNums)
+print FiboNumSum
