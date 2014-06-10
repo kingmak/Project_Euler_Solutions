@@ -1,9 +1,9 @@
 ##Problem 4 Project Euler
 palindrome = 0
-for numOne in range(100, 1000):
-	for numTwo in range(100, 1000):
-		numba = numOne * numTwo
-		if str(numba) == str(numba)[::-1]:
-			if numba > palindrome:
-					palindrome = numba
-print 'larger palindrom = %d ' % palindrome
+palindrome = 0
+for x in range(100, 1000):
+	for y in range(100, 1000):
+		num = x * y
+		if str(num) == str(num)[::-1]: 
+			if num > palindrome: palindrome = num
+print 'largest Palindrome Number = %d ' % palindrome
