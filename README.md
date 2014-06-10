@@ -1,5 +1,5 @@
 Project_Euler_Solutions
 =======================
 
-As I work Through the Project Euler Problems I Will Post the Solutions Here in Python.</br>
-https://projecteuler.net
+- As I work Through the Project Euler Problems I Will Post the Solutions Here in Python.
+- https://projecteuler.net
